@@ -1,6 +1,5 @@
 import { Github, Instagram, Mail, Music, Coffee, GraduationCap, Plane, Cat, Guitar } from 'lucide-react';
 import './index.css';
-import myImage from "E:\учёба\универ\react\img\IMG_20250311_122116_231.jpg";
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
         </div>
         <div className="md:w-1/2">
           <img 
-            src={myImage}
+            src="img/IMG_20250311_122116_231.jpg"
             alt="Profile" 
             className="rounded-full w-64 h-64 object-cover mx-auto shadow-lg hover:scale-105 transition-transform duration-300"
           />
