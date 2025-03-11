@@ -17,7 +17,7 @@ function App() {
         </div>
         <div className="md:w-1/2">
           <img 
-            src="/img/IMG_20250311_122116_231.jpg"
+            src={`${import.meta.env.BASE_URL}img/IMG_20250311_122116_231.jpg`}
             alt="Profile" 
             className="rounded-full w-64 h-64 object-cover mx-auto shadow-lg hover:scale-105 transition-transform duration-300"
           />
